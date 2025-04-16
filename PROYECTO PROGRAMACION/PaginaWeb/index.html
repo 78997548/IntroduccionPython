@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contaminación del Aire</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #2c3e50;
+      }
+
+      .mapa-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+      }
+
+      iframe {
+        border: 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+</head>
+<body>
+
+    <h1>Aquí va el Título</h1>
+    <p>Aquí va la descripción</p>
+
+    <h2>¿Qué es la contaminación atmosférica?</h2>
+    <p>La contaminación del aire es una mezcla de partículas y gases que pueden alcanzar concentraciones nocivas tanto en el exterior como en el interior. Sus efectos pueden ir desde un mayor riesgo de enfermedades hasta un aumento de las temperaturas. El hollín, el humo, el moho, el polen, el metano y el dióxido de carbono son sólo algunos ejemplos de contaminantes comunes.<br><br>En EE.UU., una medida de la contaminación del aire exterior es el Índice de Calidad del Aire, o ICA, un índice que también se mide en España, y que califica las condiciones del aire en todo el país basándose en las concentraciones de cinco contaminantes principales: ozono troposférico, contaminación por partículas (o materia particulada), monóxido de carbono, dióxido de azufre y dióxido de nitrógeno. Algunos de ellos también contribuyen a la contaminación del aire interior, junto con el radón, el humo de los cigarrillos, los compuestos orgánicos volátiles (COV), el formaldehído, el amianto y otras sustancias.</p>
+
+    <h3>Un peligro para la salud mundial</h3>
+    <p>La mala calidad del aire mata a la gente. En todo el mundo, el mal aire exterior causó unos 4,2 millones de muertes prematuras en 2016, alrededor del 90% de ellas en países de ingresos bajos y medios, según la Organización Mundial de la Salud. El humo en interiores es una amenaza constante para la salud de los 3000 millones de personas que cocinan y calientan sus hogares quemando biomasa, queroseno y carbón. La contaminación atmosférica se ha relacionado con tasas más elevadas de cáncer, cardiopatías, accidentes cerebrovasculares y enfermedades respiratorias como el asma. En Estados Unidos, casi 134 millones de personas (más del 40% de la población) corren el riesgo de enfermar y morir prematuramente a causa de la contaminación atmosférica, según estimaciones de la Asociación Americana del Pulmón. Y en Europa, aunque se ha registrado un descenso en el número de muertes prematuras por contaminación del aire, esta sigue siendo el mayor riesgo ambiental para la salud.</p>
+
+    <h1>Situación actual de la calidad del aire en El Salvador</h1>
+    <p>El Ministerio de Medio Ambiente y Recursos Naturales (MARN) monitorea la calidad del aire en el Área Metropolitana de San Salvador (AMSS) mediante la Red de Monitoreo de la Calidad del Aire (REDCA), enfocándose en partículas finas (PM2.5), que son las más perjudiciales para la salud humana.<br>Según datos recientes, el Índice de Calidad del Aire (ICA) en San Salvador se encuentra en niveles moderados, con una concentración de PM2.5 de 9.5 µg/m³. Sin embargo, en ciertas áreas como Soyapango, la calidad del aire ha sido calificada como dañina, lo que representa un riesgo para la salud de la población.</p>
+
+    <h2>Factores que afectan la calidad del aire</h2>
+    <p>Los principales factores que contribuyen a la contaminación del aire en El Salvador incluyen:</p>
+    <ul>
+        <li>Emisiones vehiculares: El parque automotor en crecimiento y la falta de mantenimiento adecuado de los vehículos aumentan las emisiones de contaminantes.</li>
+        <li>Actividades industriales: Algunas industrias emiten partículas y gases contaminantes sin un control adecuado.</li>
+        <li>Quema de basura y prácticas agrícolas: La quema al aire libre libera grandes cantidades de partículas finas al ambiente.</li>
+        <li>Condiciones climáticas: Durante la estación seca, la falta de lluvias y la acumulación de contaminantes en la atmósfera pueden empeorar la calidad del aire.</li>
+    </ul>
+
+    <h2>Recomendaciones para la población</h2>
+    <p>Para proteger la salud frente a la contaminación del aire, se recomienda:</p>
+    <ul>
+        <li>Evitar actividades al aire libre durante períodos de alta contaminación.</li>
+        <li>Utilizar mascarillas adecuadas si es necesario salir.</li>
+        <li>Mantenerse informado sobre los niveles de calidad del aire a través de fuentes oficiales.</li>
+        <li>Contribuir a reducir la contaminación evitando la quema de basura y utilizando medios de transporte sostenibles.</li>
+    </ul>
+
+    <h1>Calidad del Aire en Vivo - El Salvador</h1>
+    <p>Datos proporcionados por OpenWeatherMap (actualizados en tiempo real).</p>
+
+    <div class="mapa-container">
+        <iframe
+            width="650"
+            height="400"
+            src="https://openweathermap.org/widgets/air-quality?lat=13.6929&lon=-89.2182&appid=b5a78f261f9e1971854aba67f2f22b6c"
+            allowtransparency="true">
+        </iframe>
+    </div>
+
+</body>
+</html>
