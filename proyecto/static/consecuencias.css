@@ -1,0 +1,109 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #2e86de;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.contenido {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Títulos */
+h2 {
+    color: #2e86de;
+    margin-top: 25px;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Listas */
+ul {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    list-style: disc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Mapa de chalate y el cuadro de calidad del aire de este departamento */
+.info-local {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin: 2em auto;
+  max-width: 1200px;
+  padding: 1em;
+}
+
+.mapa-chalatenango, .calidad-aire {
+  flex: 1 1 450px;
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mapa-chalatenango iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.aire-box {
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 10px;
+  border-left: 8px solid #4caf50;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: left;
+}
