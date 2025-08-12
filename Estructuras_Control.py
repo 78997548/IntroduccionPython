@@ -1,3 +1,10 @@
+#MIEMBROS:
+#Romel José Mancia Preza
+#Wesley Bladimir Rivera Villanueva
+#Jose Alejandro Diaz Cortez
+#Jacinto Tomas Cortez Serrano
+#Karen Estefani Guillen Quijada.
+
 def ejercicio1():
     
     print("\n🧩 Ejercicio 1 – Número positivo, negativo o cero (condicional simple y múltiple)")
