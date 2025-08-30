@@ -1,3 +1,9 @@
+""" INTEGRANTES:
+    - Wesley Bladimir Rivera Villanueva
+    - Romel José Mancia Preza
+    - Jacinto Tomas Cortez Serrano
+"""
+
 class TarjetaPrepago:
     #atributos el saldo dede ser privado que no se muestre directamente
     def _init_(self, saldo_inicial, numero):

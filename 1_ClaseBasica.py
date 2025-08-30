@@ -1,3 +1,9 @@
+""" INTEGRANTES:
+    - Wesley Bladimir Rivera Villanueva
+    - Romel José Mancia Preza
+    - Jacinto Tomas Cortez Serrano
+"""
+
 
 class Persona:
     def __init__(self, nombre, edad):

@@ -1,3 +1,9 @@
+""" INTEGRANTES:
+    - Wesley Bladimir Rivera Villanueva
+    - Romel José Mancia Preza
+    - Jacinto Tomas Cortez Serrano
+"""
+
 # creamos una clase abstracta llamada "FIGURA"
 # tambien creamos un metodo abstracto llamado "area()"
 from abc import ABC, abstractmethod
